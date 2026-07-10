@@ -12,48 +12,59 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div>
-        <i class="fa-solid fa-bars menu"></i>
-        <a href="index.html">
-          <i class="fa-brands fa-youtube youtube"></i>
-          Youtube
-        </a>
-      </div>
-      <div>
-        <div class="input">
-          <input type="search" placeholder="Поиск" />
-          <div>
-            <i class="fa-solid fa-keyboard keyboard"></i>
-            <i class="fa-solid fa-magnifying-glass search"></i>
-          </div>
+      <div class="header">
+        <div>
+          <i class="fa-solid fa-bars menu"></i>
+          <a href="index.html">
+            <i class="fa-brands fa-youtube youtube"></i>
+            Youtube
+          </a>
         </div>
-        <i class="fa-solid fa-microphone microphone"></i>
-      </div>
-      <div>
-        <button class="create">
-          <i class="fa-solid fa-plus plus"></i>
-          <p>Create</p>
-        </button>
-        <i class="fa-regular fa-bell"></i>
-        <div class="profile">
-          <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/030/504/836/small/avatar-account-flat-isolated-on-transparent-background-for-graphic-and-web-design-default-social-media-profile-photo-symbol-profile-and-people-silhouette-user-icon-vector.jpg"
-            alt=""
-          />
+        <div>
+          <div class="input">
+            <input type="search" placeholder="Поиск" />
+            <div>
+              <i class="fa-solid fa-keyboard keyboard"></i>
+              <i class="fa-solid fa-magnifying-glass search"></i>
+            </div>
+          </div>
+          <i class="fa-solid fa-microphone microphone"></i>
+        </div>
+        <div>
+          <button class="create">
+            <i class="fa-solid fa-plus plus"></i>
+            <p>Create</p>
+          </button>
+          <i class="fa-regular fa-bell"></i>
+          <div class="profile">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/030/504/836/small/avatar-account-flat-isolated-on-transparent-background-for-graphic-and-web-design-default-social-media-profile-photo-symbol-profile-and-people-silhouette-user-icon-vector.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </header>
 
     <main>
       <aside>
-        <a href="#">Home</a>
+        <a href="#"><i class="fa-solid fa-house"></i>Home</a>
         <a href="#">Shorts</a>
         <hr />
         <div class="subscriptions">
-          <a href="#">Subscribtions <i class="fa-solid fa-angle-right"></i></a>
+          <a href="#" class="aside-link"
+            >Subscribtions <i class="fa-solid fa-angle-right"></i
+          ></a>
           <a href="#"
             ><img
               src="https://static.vecteezy.com/system/resources/thumbnails/030/504/836/small/avatar-account-flat-isolated-on-transparent-background-for-graphic-and-web-design-default-social-media-profile-photo-symbol-profile-and-people-silhouette-user-icon-vector.jpg"
@@ -93,7 +104,9 @@
         </div>
         <hr />
         <div class="you">
-          <a href="#">you <i class="fa-solid fa-angle-right"></i></a>
+          <a href="#" class="aside-link"
+            >you <i class="fa-solid fa-angle-right"></i
+          ></a>
           <a href="#"><i class="fa-solid fa-clock-rotate-left"></i>History</a>
           <a href="#"><i class="fa-solid fa-list-ul"></i>Playlist</a>
           <a href="#"><i class="fa-regular fa-clock"></i>Watch later</a>
@@ -113,6 +126,91 @@
           >
         </div>
       </aside>
+      <section class="youtube-sections">
+        <div class="youtube-setions">
+          <button>All</button>
+          <button>Music</button>
+          <button>Jams</button>
+          <button>Podcasts</button>
+          <button>Video Games</button>
+          <button>Now on air</button>
+          <button>Football</button>
+          <button>Animation</button>
+          <button>Sketch show</button>
+          <button>Sports and video games</button>
+          <button>Recently published</button>
+          <button>Viewed</button>
+          <button>New for you</button>
+        </div>
+        <section class="videos-wrapper">
+          <div class="videos">
+            <div class="video">
+              <a href="">
+                <video src="video.mp4" controls></video>
+                <h3>Marokash - Fransiya | FutGoal</h3>
+                <p>FUTGOAL</p>
+                <p>9,9 m. views • 14 days ago</p>
+              </a>
+            </div>
+            <div class="video">
+              <a href="">
+                <video src="video.mp4" controls></video>
+                <h3>Marokash - Fransiya | FutGoal</h3>
+                <p>FUTGOAL</p>
+                <p>9,9 m. views • 14 days ago</p>
+              </a>
+            </div>
+            <div class="video">
+              <a href="">
+                <video src="video.mp4" controls></video>
+                <h3>Marokash - Fransiya | FutGoal</h3>
+                <p>FUTGOAL</p>
+                <p>9,9 m. views • 14 days ago</p>
+              </a>
+            </div>
+          </div>
+          <h1 class="shorts-title">
+            <i class="fa-brands fa-youtube youtube"></i>Shorts
+          </h1>
+          <div class="short-videos">
+            <div class="shorts">
+              <a href="">
+                <video src="shorts.mp4" controls></video>
+                <h3>Khusanov Edit🔥</h3>
+                <p>39 m. views</p>
+              </a>
+            </div>
+            <div class="shorts">
+              <a href="">
+                <video src="shorts.mp4" controls></video>
+                <h3>Khusanov Edit🔥</h3>
+                <p>39 m. views</p>
+              </a>
+            </div>
+            <div class="shorts">
+              <a href="">
+                <video src="shorts.mp4" controls></video>
+                <h3>Khusanov Edit🔥</h3>
+                <p>39 m. views</p>
+              </a>
+            </div>
+            <div class="shorts">
+              <a href="">
+                <video src="shorts.mp4" controls></video>
+                <h3>Khusanov Edit🔥</h3>
+                <p>39 m. views</p>
+              </a>
+            </div>
+            <div class="shorts">
+              <a href="">
+                <video src="shorts.mp4" controls></video>
+                <h3>Khusanov Edit🔥</h3>
+                <p>39 m. views</p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
   </body>
 </html>
