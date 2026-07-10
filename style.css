@@ -1,95 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-        padding-inline: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+  padding-inline: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu {
-    padding: 8px;
-    box-sizing: content-box;
-    font-size: 28px;
-    transition: 0.4s;
+  padding: 8px;
+  box-sizing: content-box;
+  font-size: 28px;
+  transition: 0.4s;
 }
 
 header a {
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
 }
 
 .youtube {
-    color: #ff0000;
+  color: #ff0000;
 }
 
-header>div {
-    gap: 32px;
-    display: flex;
-    align-items: center;
-    border-radius: 50px;
+header > div {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
 }
 
-.input>div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.input > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .search {
-    font-size: 17px;
-    padding-top: 8px;
-    height: 35px;
-    min-width: 60px;
-    background-color: #aaaa;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+  font-size: 17px;
+  padding-top: 8px;
+  height: 35px;
+  min-width: 60px;
+  background-color: #aaaa;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .input {
-    height: 36px;
-    width: 414px;
-    display: flex;
-    border-radius: 50px;
-    align-items: center;
-    border: 1px solid #303030;
+  height: 36px;
+  width: 414px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  border: 1px solid #303030;
 }
 
 input {
-    width: 390px;
-    padding: 0px 12px;
-    border: none;
-    outline: none;
+  width: 390px;
+  padding: 0px 12px;
+  border: none;
+  outline: none;
 }
 
 header img {
-    width: 50px;
-    height: 45px;
+  width: 50px;
+  height: 45px;
 }
 
 .menu:hover {
-    border-radius: 100%;
-    background: #212121;
+  border-radius: 100%;
+  background: #212121;
 }
 
 .microphone {
-    padding: 12px;
-    box-sizing: content-box;
-    border-radius: 100%;
-    background-color: #aaaa;
+  padding: 12px;
+  box-sizing: content-box;
+  border-radius: 100%;
+  background-color: #aaaa;
 }
 
 header button {
-    border: none;
-    background-color: #aaaa;
+  border: none;
+  background-color: #aaaa;
+}
+
+.create {
+  gap: 4px;
+  width: 111px;
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  color: #0f0f0f;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.fa-bell {
+  font-size: 28px;
 }
