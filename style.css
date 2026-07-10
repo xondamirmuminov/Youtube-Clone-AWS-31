@@ -142,9 +142,9 @@ aside {
   display: flex;
   max-width: 300px;
   line-height: 300%;
-  overflow: auto;
-  padding-top: calc(var(--header-height) + 16px);
+  overflow: hidden;
   flex-direction: column;
+  padding-top: calc(var(--header-height) + 16px);
 }
 
 aside > div {
