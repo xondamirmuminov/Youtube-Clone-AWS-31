@@ -142,7 +142,6 @@ aside {
   display: flex;
   max-width: 300px;
   line-height: 300%;
-  overflow: auto;
   padding-top: calc(var(--header-height) + 16px);
   flex-direction: column;
 }
