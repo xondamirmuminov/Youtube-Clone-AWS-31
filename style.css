@@ -9,10 +9,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --header-height: 80px;
+}
+
 .header {
-  height: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
+  position: fixed;
   align-items: center;
+  background-color: white;
+  height: var(--header-height);
   justify-content: space-between;
 }
 
@@ -125,10 +134,6 @@ input {
   font-size: 28px;
 }
 
-.fa-bell:hover {
-  background-color:;
-}
-
 main {
   display: grid;
 }
@@ -138,6 +143,7 @@ aside {
   max-width: 300px;
   line-height: 300%;
   overflow: auto;
+  padding-top: calc(var(--header-height) + 16px);
   flex-direction: column;
 }
 
@@ -170,6 +176,7 @@ aside hr {
   height: 56px;
   grid-row: 1;
   display: flex;
+  padding-top: calc(var(--header-height) + 24px);
   grid-column: 2 / 4;
   flex-direction: column;
 }
