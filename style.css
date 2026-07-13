@@ -40,7 +40,7 @@ body {
 }
 
 .header a {
-  font-size: 30px;
+  font-size: 24px;
   color: black;
   text-decoration: none;
 }
@@ -57,7 +57,6 @@ body {
 }
 
 .input > div {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -78,16 +77,17 @@ body {
 }
 
 .input {
+  width: 120%;
   height: 36px;
   display: flex;
   min-width: 130px;
-  max-width: 414px;
   border-radius: 50px;
   align-items: center;
   border: 1px solid #303030;
 }
 
 input {
+  width: 100%;
   height: 100%;
   border: none;
   outline: none;
@@ -96,8 +96,8 @@ input {
 }
 
 .header img {
-  width: 50px;
-  height: 45px;
+  width: 32px;
+  height: 32px;
 }
 
 .menu:hover {
@@ -140,7 +140,7 @@ input {
 }
 
 .fa-bell {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 main {
@@ -152,7 +152,7 @@ aside {
   display: flex;
   padding-left: 24px;
   flex-direction: column;
-  padding-top: calc(var(--header-height) + 16px);
+  padding-top: calc(var(--header-height));
 }
 
 aside > div {
@@ -177,10 +177,15 @@ aside > div > a {
 
 aside a {
   height: 40px;
+  padding-left: 10px;
   color: #0f0f0f;
   font-size: 1.2rem;
   border-radius: 12px;
   text-decoration: none;
+}
+
+aside a img {
+  border-radius: 50%;
 }
 
 aside a:hover {
@@ -198,9 +203,23 @@ aside hr {
 
 .youtube-sections {
   display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
   grid-column: 2 / 4;
   flex-direction: column;
   padding-top: calc(var(--header-height));
+}
+
+.youtube-setions {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.youtube-setions button {
+  white-space: nowrap;
 }
 
 .youtube-sections button {
@@ -329,20 +348,14 @@ aside i {
   width: 100%;
   border-radius: 12px;
 }
+
 .two {
   border-radius: 100px;
   display: none;
 }
 
-.youtube-setions {
-  margin-left: 32px;
-}
-
 .youtube-setions button {
   margin: 2px;
-}
-
-@media (max-width: 1740px) {
 }
 
 @media (max-width: 1600px) {
@@ -351,6 +364,7 @@ aside i {
   }
 
   aside {
+    margin-right: 40px;
     padding-left: 0;
   }
 
@@ -392,7 +406,6 @@ aside i {
 @media (max-width: 1028px) {
   .videos video {
     width: 100%;
-    height: 246px;
   }
 }
 
@@ -400,6 +413,10 @@ aside i {
   .videos {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .short-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -410,5 +427,46 @@ aside i {
 
   .header div {
     gap: 12px;
+  }
+}
+
+@media (max-width: 790px) {
+  aside {
+    display: none;
+  }
+  .short-videos {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .videos {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .microphone {
+    display: none !important;
+  }
+  .fa-bell {
+    display: none !important;
+  }
+
+  .create p {
+    display: none;
+  }
+
+  .create {
+    padding: 12px;
+    width: auto;
+    height: auto;
   }
 }
