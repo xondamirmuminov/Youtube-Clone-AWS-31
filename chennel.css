@@ -395,6 +395,201 @@ main {
   color: #606060;
   font-size: 14px;
 }
+.hr {
+  margin: auto;
+  width: 90%;
+  margin-block: 24px;
+}
+
+.posts {
+  width: 100%;
+}
+
+.posts__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.posts__wrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.post {
+  width: calc(50% - 10px);
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.post__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.post__user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post__user img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post__user h4 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.post__user span {
+  font-size: 13px;
+  color: #777;
+}
+
+.post__menu {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.post__content {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  gap: 16px;
+  align-items: start;
+}
+
+.post__text {
+  width: 100%;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+.post__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.post__bottom {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.projects {
+  width: 100%;
+  margin: 60px 0;
+}
+
+.projects__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.projects__top h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.projects__top a {
+  text-decoration: none;
+  color: #065fd4;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.projects__wrapper {
+  display: flex;
+  gap: 35px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.projects__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.project-card {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 18px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.project-card button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  background: #f2f2f2;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.project-card button:hover {
+  background: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .projects__top h2 {
+    font-size: 26px;
+  }
+
+  .project-card {
+    min-width: 160px;
+  }
+
+  .project-card img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+
+  .project-card p {
+    font-size: 13px;
+  }
+
+  .project-card button {
+    padding: 8px 18px;
+    font-size: 14px;
 
 @media (max-width: 1700px) {
   .content {
