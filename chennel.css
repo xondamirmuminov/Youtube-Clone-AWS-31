@@ -13,7 +13,7 @@ body {
   --header-height: 80px;
 }
 .banner {
-  max-width: 1228px;
+  max-width: 1500px;
   max-height: 250px;
 }
 .banner img {
@@ -192,7 +192,7 @@ main {
 }
 .sayit--bar {
   display: flex;
-  padding-left: 150px;
+  margin: auto;
   align-items: center;
 }
 
@@ -361,9 +361,8 @@ main {
   border-radius: 12px;
 }
 
-.shorts {
+.shortss {
   width: 100%;
-  margin-top: 40px;
 }
 
 .shorts-title {
@@ -381,7 +380,6 @@ main {
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
-  display: block;
 }
 
 .short-card h4 {
@@ -411,17 +409,17 @@ main {
 }
 
 .posts__wrapper {
-  display: flex;
-  gap: 20px;
-  width: 100%;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .post {
-  width: calc(50% - 10px);
-  background: #fff;
-  border: 1px solid #e5e5e5;
-  border-radius: 16px;
+  width: 100%;
   padding: 18px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e5e5e5;
 }
 
 .post__top {
@@ -512,14 +510,9 @@ main {
 }
 
 .projects__wrapper {
-  display: flex;
   gap: 35px;
   overflow-x: auto;
   padding-bottom: 10px;
-}
-
-.projects__wrapper::-webkit-scrollbar {
-  display: none;
 }
 
 .project-card {
@@ -597,7 +590,7 @@ main {
   }
 
   .sayit--bar {
-    padding-left: 50px;
+    margin: auto;
   }
 }
 
@@ -648,6 +641,10 @@ main {
   .videos {
     display: grid;
     width: 100%;
+  }
+  .posts__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -701,6 +698,17 @@ main {
   }
 }
 
+@media (max-width: 530px) {
+  .post {
+    display: flex;
+    flex-direction: column;
+  }
+  .videos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 480px) {
   .microphone {
     display: none !important;
@@ -717,5 +725,16 @@ main {
     padding: 12px;
     width: auto;
     height: auto;
+  }
+
+  .shorts-list {
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: 1fr;
+  }
+
+  .short-card {
+    width: 80%;
+    height: 100%;
   }
 }
