@@ -276,7 +276,7 @@ a {
   right: 0;
   bottom: 0;
   height: 34%;
-  background: linear-gradient(transparent, rgba(0, 0, 0, .75));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 
 .video-top,
@@ -301,7 +301,7 @@ a {
   height: 42px;
   border-radius: 50%;
   color: white;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   font-size: 18px;
 }
 
@@ -372,7 +372,7 @@ a {
   display: inline-block;
   padding: 7px 10px;
   border-radius: 15px;
-  background: rgba(0, 0, 0, .55);
+  background: rgba(0, 0, 0, 0.55);
   font-size: 12px;
 }
 
