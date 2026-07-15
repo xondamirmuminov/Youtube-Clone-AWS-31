@@ -103,11 +103,18 @@ input {
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
+.daltn:hover {
+  transform: scale(1.1);
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
 .div-boy {
   width: 240px;
   border-radius: 8px;
 }
 .div-by {
+  width: 100%;
   display: flex;
   padding: 4px 4px;
   transition-delay: 0.3s;
@@ -115,7 +122,6 @@ input {
   transition-timing-function: ease-in-out;
 }
 .div-by:hover {
-  transform: scale(1.05);
   border-radius: 10px;
   background-color: rgb(244, 228, 250);
 }
@@ -401,4 +407,898 @@ input {
 }
 .botom {
   padding-top: 5px;
+}
+
+@media (max-width: 1300px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    width: 250px;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    width: 250px;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 250px;
+    margin-left: -400px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 400px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 727px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .red-bar {
+    font-size: 18px;
+  }
+  .create {
+    gap: 10px;
+    width: 99px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .linker {
+    display: block;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 370px;
+    margin-left: -600px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 600px;
+    display: block;
+    margin-top: 20px;
+  }
+  .daltn {
+    opacity: -1;
+    border: none;
+    font-weight: 600;
+    margin-left: 7px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+  .kolor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .food {
+    height: 180px;
+    margin-left: -20px;
+  }
+  .good {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .god {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .gid {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .ged {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .red-bar {
+    font-size: 18px;
+  }
+  .create {
+    gap: 10px;
+    width: 99px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .linker {
+    display: block;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 320px;
+    margin-left: -500px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 500px;
+    display: block;
+    margin-top: 20px;
+  }
+  .daltn {
+    opacity: -1;
+    border: none;
+    font-weight: 600;
+    margin-left: 7px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+  .kolor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .food {
+    height: 180px;
+    margin-left: -20px;
+  }
+  .good {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .god {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .gid {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .ged {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+}
+@media (max-width: 497px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .red-bar {
+    font-size: 18px;
+  }
+  .create {
+    gap: 10px;
+    width: 89px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .linker {
+    display: block;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 370px;
+    margin-left: -600px;
+  }
+  .div-boy {
+    width: 50px;
+    margin-top: 20px;
+  }
+  .daltn {
+    opacity: -1;
+    border: none;
+    font-weight: 600;
+    margin-left: 7px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+  .kolor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .food {
+    height: 180px;
+    margin-left: -20px;
+  }
+  .good {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .god {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .gid {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+  .ged {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    width: 250px;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -300px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    width: 250px;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -300px;
+    flex-direction: column;
+  }
+  .wordee {
+    display: flex;
+    margin-left: -300px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .verde {
+    display: grid;
+    width: 100%;
+  }
+
+  .div-by {
+    width: 100%;
+  }
+}
+@media (max-width: 737px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create {
+    gap: 10px;
+    width: 179px;
+    height: 44px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -300px;
+    flex-direction: column;
+  }
+  .wordee {
+    display: flex;
+    margin-top: 00px;
+    margin-left: 00px;
+    flex-direction: column;
+  }
+  .div-boy {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 537px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create {
+    gap: 10px;
+    width: 99px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 300px;
+    margin-left: -480px;
+    flex-direction: column;
+  }
+  .wordee {
+    display: flex;
+    margin-top: 00px;
+    margin-left: 00px;
+    flex-direction: column;
+  }
+  .wordde {
+    display: none;
+  }
+  .div-bek {
+    display: none;
+  }
+  .div-boy {
+    width: 480px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 497px) {
+  .kiler-aslam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galactic {
+    width: 100%;
+  }
+  .pepe {
+    width: 95%;
+    margin-left: 20px;
+  }
+  input {
+    display: none;
+  }
+  .fa-magnifying-glass {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .create {
+    gap: 10px;
+    width: 99px;
+    height: 36px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .create-new {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tioriya {
+    display: flex;
+    padding: 10px 20px;
+  }
+  .but {
+    display: none;
+  }
+
+  .bun {
+    display: none;
+  }
+
+  .lokity {
+    gap: 20px;
+    display: flex;
+    display: block;
+    align-items: center;
+  }
+  .verde {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .daltn {
+    opacity: 1;
+  }
+  .red-bar {
+    width: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .worde {
+    display: flex;
+    margin-top: 250px;
+    margin-left: -380px;
+    flex-direction: column;
+  }
+  .wordee {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -400px;
+    flex-direction: column;
+  }
+  .wordde {
+    display: none;
+  }
+  .fa-microphone {
+    display: none;
+  }
+  .div-bek {
+    display: none;
+  }
+  .div-boy {
+    width: 380px;
+    margin-top: 20px;
+  }
 }
