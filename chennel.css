@@ -510,14 +510,8 @@ main {
 }
 
 .projects__wrapper {
-  display: flex;
-  gap: 35px;
-  overflow-x: auto;
-  padding-bottom: 10px;
-}
-
-.projects__wrapper::-webkit-scrollbar {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .project-card {
@@ -631,6 +625,9 @@ main {
   .input {
     display: none;
   }
+    .project-card-5 {
+    display: none;
+  }
 }
 
 @media (max-width: 1110px) {
@@ -638,6 +635,8 @@ main {
     display: grid;
     width: 100%;
   }
+
+
 }
 
 @media (max-width: 1028px) {
@@ -677,6 +676,10 @@ main {
     justify-items: center;
     grid-template-columns: 1fr 1fr;
   }
+
+  .project-card-4{
+    display: none;
+  }
 }
 
 @media (max-width: 650px) {
@@ -688,7 +691,9 @@ main {
   .video {
     width: 100%;
   }
-}
+  .project-card-3 {
+    display: none;
+  }
 
 @media (max-width: 480px) {
   .microphone {
@@ -706,5 +711,8 @@ main {
     padding: 12px;
     width: auto;
     height: auto;
+  }
+    .project-card-2 {
+    display: none;
   }
 }
