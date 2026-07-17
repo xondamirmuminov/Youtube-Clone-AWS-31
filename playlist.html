@@ -5,9 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./playlist.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 </head>
-<body>
+<body>    
     <div class="wrapper">
+
+        <header class="topbar">
+            <div class="brand">
+              <button class="plain-button menu-button" aria-label="Open menu">
+                ☰
+              </button>
+              <a class="youtube-logo" href="#" aria-label="YouTube home">
+                <span class="logo-icon">▶</span>
+                <span>YouTube</span>
+              </a>
+            </div>
+      
+            <form class="search-bar">
+              <input type="search" placeholder="Search" aria-label="Search" />
+              <button type="submit" aria-label="Submit search">⌕</button>
+            </form>
+      
+            <div class="header-actions">
+              <button class="create-button">+ Create</button>
+              <button class="plain-button" aria-label="Notifications">♧</button>
+              <div class="account">M</div>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+              <a href="#"><span>⌂</span> Home</a>
+              <a href="#"><span>▶</span> Shorts</a>
+            </nav>
+    
+            <div class="side-group">
+              <h3>Subscriptions</h3>
+              <a href="#"><span class="mini-avatar blue">V</span> Veritasium</a>
+              <a href="#"><span class="mini-avatar gold">C</span> Coder Coder</a>
+              <a href="#"><span class="mini-avatar dark">I</span> IBM Technology</a>
+              <a href="#"><span class="mini-avatar purple">T</span> Theo - t3.gg</a>
+              <a href="#"><span>⌄</span> Show more</a>
+            </div>
+    
+            <div class="side-group">
+              <h3>You</h3>
+              <a href="#"><span>▣</span> Your channel</a>
+              <a href="#"><span>◷</span> History</a>
+              <a href="#" class="active"><span>☷</span> Playlists</a>
+              <a href="#"><span>♡</span> Liked videos</a>
+            </div>
+          </aside>
+
         <div class="for-responsive">
             <div class="parent-center-aside">
                 <aside class="center-aside">
