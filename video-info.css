@@ -445,15 +445,31 @@ input {
   }
 
   .lokity {
-    gap: 20px;
     display: flex;
     display: block;
     align-items: center;
+  }
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
   }
   .verde {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+    .div-boy {
+    width: 470px;
+    display: flex;
+    margin-top: 20px;
+  }
+    .worde {
+    display: flex;
+    margin-top: 300px;
+    margin-left: -470px;
+    flex-direction: column;
   }
 }
 
@@ -463,6 +479,21 @@ input {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .kids-baby{
+    width: 100%;
+  }
+
+  .verde{
+  width: 100%;
+  height: 100%;
+}
+
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
   }
   .galactic {
     width: 100%;
@@ -529,7 +560,18 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
+    width: 100%;
+  }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
     width: 100%;
   }
   .pepe {
@@ -653,6 +695,17 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -777,6 +830,17 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -898,6 +962,17 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -963,6 +1038,20 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .kopo{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -1042,6 +1131,17 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -1119,13 +1219,24 @@ input {
     margin-top: 20px;
   }
 }
-@media (max-width: 537px) {
+@media (max-width: 597px) {
   .kiler-aslam {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -1216,6 +1327,20 @@ input {
     justify-content: center;
     flex-direction: column;
   }
+  
+  .div-boy{
+    width: 100%;
+  }
+  .div-by{
+    width: 100%;
+  }
+  .kopo{
+    width: 100%;
+  }
+  .verde{
+  width: 100%;
+  height: 100%;
+}
   .galactic {
     width: 100%;
   }
@@ -1301,4 +1426,8 @@ input {
     width: 380px;
     margin-top: 20px;
   }
+  .food{
+    height: 200px;
+  }
 }
+.like
