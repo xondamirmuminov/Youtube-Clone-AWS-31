@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Shorts</title>
+    <link rel="stylesheet" href="YT-shorts.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="comments-toggle" />
+
+    <header class="topbar">
+      <div class="brand">
+        <button class="plain-button menu-button" aria-label="Open menu">
+          ☰
+        </button>
+        <a class="youtube-logo" href="#" aria-label="YouTube home">
+          <span class="logo-icon">▶</span>
+          <span>YouTube</span>
+        </a>
+      </div>
+
+      <form class="search-bar">
+        <input type="search" placeholder="Search" aria-label="Search" />
+        <button type="submit" aria-label="Submit search">⌕</button>
+      </form>
+
+      <div class="header-actions">
+        <button class="create-button"><span>＋</span> Create</button>
+        <button class="plain-button" aria-label="Notifications">♧</button>
+        <div class="account">M</div>
+      </div>
+    </header>
+
+    <div class="page">
+      <aside class="sidebar">
+        <nav>
+          <a href="#"><span>⌂</span> Home</a>
+          <a href="#" class="active"><span>▶</span> Shorts</a>
+        </nav>
+
+        <div class="side-group">
+          <h3>Subscriptions</h3>
+          <a href="#"><span class="mini-avatar blue">V</span> Veritasium</a>
+          <a href="#"><span class="mini-avatar gold">C</span> Coder Coder</a>
+          <a href="#"><span class="mini-avatar dark">I</span> IBM Technology</a>
+          <a href="#"><span class="mini-avatar purple">T</span> Theo - t3.gg</a>
+          <a href="#"><span>⌄</span> Show more</a>
+        </div>
+
+        <div class="side-group">
+          <h3>You</h3>
+          <a href="#"><span>▣</span> Your channel</a>
+          <a href="#"><span>◷</span> History</a>
+          <a href="#"><span>☷</span> Playlists</a>
+          <a href="#"><span>♡</span> Liked videos</a>
+        </div>
+      </aside>
+
+      <main class="shorts-area">
+        <section class="short-player">
+          <div class="short-card">
+            <img
+              src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Plant_on_a_brick_wall.jpg?width=900"
+              alt="A green plant growing beside a brick wall"
+            />
+            <div class="video-top">
+              <button aria-label="Play">▶</button>
+              <button aria-label="Sound">◕</button>
+              <span class="video-spacer"></span>
+              <span class="cc">CC</span>
+              <button aria-label="More options">⋮</button>
+            </div>
+            <div class="partnership">Includes paid partnership</div>
+            <p class="caption">This is just a plant.</p>
+            <div class="video-info">
+              <div class="channel-line">
+                <span class="channel-avatar">Ve</span>
+                <strong>@veritasium</strong>
+                <button>Subscribe</button>
+              </div>
+              <p>AD - Why are plants colder than their surroundings?</p>
+              <p class="music">♫ original sound - Veritasium</p>
+            </div>
+          </div>
+
+          <div class="short-actions">
+            <button><span>♡</span><small>6.5K</small></button>
+            <label
+              for="comments-toggle"
+              class="action-button"
+              role="button"
+              tabindex="0"
+            >
+              <span>▢</span><small>252</small>
+            </label>
+            <button><span>↗</span><small>Share</small></button>
+            <button><span>⟳</span><small>Remix</small></button>
+            <div class="sound-cover">Ve</div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="comments-panel">
+        <div class="comments-header">
+          <h2>Comments <span>252</span></h2>
+          <div>
+            <button aria-label="Sort comments">☷</button>
+            <label
+              for="comments-toggle"
+              class="close-comments"
+              aria-label="Close comments"
+              >×</label
+            >
+          </div>
+        </div>
+
+        <div class="comments-list">
+          <article class="comment pinned">
+            <span class="comment-avatar blue">Ve</span>
+            <div>
+              <small>⌁ Pinned by @veritasium</small>
+              <h4>@veritasium <span>1 day ago</span></h4>
+              <p>
+                The charger CT scan featured in this video was kindly provided
+                by Lumafield.
+              </p>
+              <div class="comment-actions">♡ 90 <b>Reply</b></div>
+              <strong class="replies">3 replies⌄</strong>
+            </div>
+            <b class="dots">⋮</b>
+          </article>
+
+          <article class="comment">
+            <span class="comment-avatar photo-one">A</span>
+            <div>
+              <h4>@vivianeslavomira <span>19 hours ago</span></h4>
+              <p>
+                This is one of the most amusing advertisements I have ever seen!
+              </p>
+              <div class="comment-actions">♡ 478 <b>Reply</b></div>
+              <strong class="replies">1 reply⌄</strong>
+            </div>
+            <b class="dots">⋮</b>
+          </article>
+
+          <article class="comment">
+            <span class="comment-avatar dark">X</span>
+            <div>
+              <h4>@xitzy <span>23 hours ago</span></h4>
+              <p>
+                It’s great to see Veritasium putting ad disclaimers in their
+                titles now.
+              </p>
+              <div class="comment-actions">♡ 566 <b>Reply</b></div>
+              <strong class="replies">7 replies⌄</strong>
+            </div>
+            <b class="dots">⋮</b>
+          </article>
+
+          <article class="comment">
+            <span class="comment-avatar gold">M</span>
+            <div>
+              <h4>@Machines.In.Action <span>23 hours ago</span></h4>
+              <p>
+                Makes you appreciate why cities without trees feel so much
+                hotter! ☀
+              </p>
+              <div class="comment-actions">♡ 231 <b>Reply</b></div>
+              <strong class="replies">5 replies⌄</strong>
+            </div>
+            <b class="dots">⋮</b>
+          </article>
+        </div>
+
+        <div class="add-comment">
+          <span class="comment-avatar red">M</span>
+          <input type="text" placeholder="Add a comment..." />
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
